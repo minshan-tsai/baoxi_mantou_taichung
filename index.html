@@ -35,10 +35,10 @@
 
         /* 抬頭圖片樣式 */
         .profile-pic {
-            width: 120px;          /* 寬度 120 像素，可自行調整大小 */
+            width: 120px;          /* 寬度 120 像素 */
             height: 120px;         /* 高度 120 像素 */
             object-fit: cover;     /* 裁切圖片使其填滿不變形 */
-            border-radius: 50%;    /* 50% 會讓圖片變成完美的圓形，若想保持方形可以刪掉這行 */
+            border-radius: 50%;    /* 讓圖片變成圓形 */
             margin-bottom: 16px;   /* 跟下方大標題的間距 */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 圖片淡淡的陰影 */
         }
@@ -68,7 +68,7 @@
         .link-button {
             display: block;
             padding: 14px;
-            background-color: #4f46e5; /* 按鈕顏色（目前為紫色） */
+            background-color: #4f46e5; /* 按鈕顏色 */
             color: #ffffff;
             text-decoration: none;
             border-radius: 8px;
@@ -93,8 +93,7 @@
 <body>
 
     <div class="container">
-        <div class="container">
-        <!-- 這裡新增了圖片標籤，假設圖片叫 avatar.jpg -->
+        <!-- 抬頭圖片，請確保 GitHub 專案裡有上傳一張叫 head.jpeg 的圖片 -->
         <img src="head.jpeg" alt="抬頭圖片" class="profile-pic">
             
         <!-- 這裡可以改成你的名字或品牌名 -->
@@ -102,17 +101,9 @@
         <p class="description">請點擊下方按鈕前往對應的網站</p>
 
         <div class="link-group">
-            <!-- 
-                【修改說明】
-                href="這裡放網址" （記得要有 http:// 或 https://）
-                target="_blank" 代表在新分頁打開網頁
-            -->
             <a href="https://www.google.com" target="_blank" class="link-button">前往 Google 搜尋</a>
-            
             <a href="https://www.youtube.com" target="_blank" class="link-button">觀看 YouTube 影片</a>
-            
             <a href="https://www.facebook.com" target="_blank" class="link-button">關注我的 Facebook</a>
-            
             <a href="https://github.com" target="_blank" class="link-button">瀏覽我的 GitHub</a>
         </div>
     </div>
