@@ -33,6 +33,16 @@
             text-align: center;
         }
 
+        /* 抬頭圖片樣式 */
+        .profile-pic {
+            width: 120px;          /* 寬度 120 像素，可自行調整大小 */
+            height: 120px;         /* 高度 120 像素 */
+            object-fit: cover;     /* 裁切圖片使其填滿不變形 */
+            border-radius: 50%;    /* 50% 會讓圖片變成完美的圓形，若想保持方形可以刪掉這行 */
+            margin-bottom: 16px;   /* 跟下方大標題的間距 */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* 圖片淡淡的陰影 */
+        }
+
         /* 大標題 */
         h1 {
             font-size: 24px;
